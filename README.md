@@ -87,7 +87,7 @@ echo  %YOUR-API-KEY%
 
 ### Command Line Interface
 ```bash
-python3 question-answering.py /path/to/legal/document.pdf "Your specific question about the document"
+python3 app.py /path/to/legal/document.pdf "Your specific question about the document"
 ```
 
 ### Example
