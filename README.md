@@ -56,19 +56,22 @@ A robust, AI-powered PDF question-answering tool designed for legal document ana
 
 ## 🚀 Installation Steps
 
+1. Clone the repository
+``` bash
+git clone <repo>
+```
 
-
-1. Install Dependencies
+2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Configure Google Gemini API
+3. Configure Google Gemini API
 - Create a Google Cloud account
 - Enable Gemini API
 - Generate an API key
 
-5. On command line use 
+4. On command line use 
 ```bash
 setx GEMINI_API_KEY  "YOUR-API-KEY" 
 ```
